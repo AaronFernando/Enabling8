@@ -10,6 +10,7 @@ class CityScreen extends StatefulWidget {
 
 class _CityScreenState extends State<CityScreen> {
   String newcity = '';
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,7 +29,7 @@ class _CityScreenState extends State<CityScreen> {
                 alignment: Alignment.topLeft,
                 child: TextButton(
                   onPressed: () {
-
+                    Navigator.pop(context); // extra function
                   },
                   child: const Icon(
                     Icons.arrow_back_ios,
