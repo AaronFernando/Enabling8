@@ -14,3 +14,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+// FLOW OF DATA:
+// weather.dart > location_screen.dart > location.dart > networking.dart > loading_screen.dart > main.dart
+// city_screen.dart is a feature connected to location_screen.dart
